@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: PRO_BREVE
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v3
