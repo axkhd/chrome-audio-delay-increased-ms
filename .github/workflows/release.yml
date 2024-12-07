@@ -42,7 +42,7 @@ jobs:
         files: output/
         dest: ChromeAudioPatcher.zip
     - name: Release
-      uses: actions/upload-artifact@v4
+      uses: ncipollo/release-action@v1
       with:
         artifacts: "ChromeAudioPatcher.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
